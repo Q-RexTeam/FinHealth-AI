@@ -1,0 +1,26 @@
+ticker,company_name,exchange ,icb_code,industry_name,sector_type ,source_url,updated_at,include_main_model
+DGC,Hóa chất Đức Giang,HOSE,1350,Hóa chất,non_financial,https://cafef.vn/du-lieu/hose/dgc-cong-ty-co-phan-tap-doan-hoa-chat-duc-giang.chn,2026-7-27,1
+TTF,Gỗ Trường Thành,HOSE,1730,Lâm nghiệp và Giấy,non_financial,https://cafef.vn/du-lieu/hose/ttf-cong-ty-co-phan-tap-doan-ky-nghe-go-truong-thanh.chn,2026-7-27,1
+HPG,Tập đoàn Hòa Phát,HOSE,1750,Kim loại,non_financial,https://cafef.vn/du-lieu/hose/hpg-cong-ty-co-phan-tap-doan-hoa-phat.chn,2026-7-27,1
+POM,Thép Pomina,UPCOM,1750,Kim loại,non_financial,https://cafef.vn/du-lieu/upcom/pom-cong-ty-co-phan-thep-pomina.chn,2026-7-27,1
+BMP,Nhựa Bình Minh,HOSE,2353,Vật liệu xây dựng & Nội thất,non_financial,https://cafef.vn/du-lieu/hose/bmp-cong-ty-co-phan-nhua-binh-minh.chn,2026-7-27,1
+HBC,Xây dựng Hòa Bình,UPCOM,2357,Xây dựng,non_financial,https://cafef.vn/du-lieu/upcom/hbc-cong-ty-co-phan-tap-doan-xay-dung-hoa-binh.chn,2026-7-27,1
+CTD,Coteccons,HOSE,2357,Xây dựng,non_financial,https://cafef.vn/du-lieu/hose/ctd-cong-ty-co-phan-xay-dung-coteccons.chn,2026-7-27,1
+SAB,Sabeco,HOSE,3530,Bia và đồ uống,non_financial,https://cafef.vn/du-lieu/hose/sab-tong-ctcp-bia-ruou-nuoc-giai-khat-sai-gon.chn,2026-7-27,1
+VNM,Vinamilk,HOSE,3577,Thực phẩm,non_financial,https://cafef.vn/du-lieu/hose/vnm-cong-ty-co-phan-sua-viet-nam.chn,2026-7-27,1
+MSN,Tập đoàn Masan,HOSE,3577,Thực phẩm,non_financial,https://cafef.vn/du-lieu/hose/msn-cong-ty-co-phan-tap-doan-masan.chn,2026-7-27,1
+DHG,Dược Hậu Giang,HOSE,4570,Dược phẩm,non_financial,https://cafef.vn/du-lieu/hose/dhg-cong-ty-co-phan-duoc-hau-giang.chn,2026-7-27,1
+MWG,Thế Giới Di Động,HOSE,5370,Bán lẻ,non_financial,https://cafef.vn/du-lieu/hose/mwg-cong-ty-co-phan-dau-tu-the-gioi-di-dong.chn,2026-7-27,1
+HVN,Vietnam Airlines,HOSE,5750,Du lịch & Giải trí,non_financial,https://cafef.vn/du-lieu/hose/hvn-tong-cong-ty-hang-khong-viet-nam-ctcp.chn,2026-7-27,1
+VJC,Vietjet,HOSE,5750,Du lịch & Giải trí,non_financial,https://cafef.vn/du-lieu/hose/vjc-cong-ty-co-phan-hang-khong-vietjet.chn,2026-7-27,1
+REE,Cơ Điện Lạnh,HOSE,7530,Sản xuất & Phân phối Điện,non_financial,https://cafef.vn/du-lieu/hose/ree-cong-ty-co-phan-co-dien-lanh.chn,2026-7-27,1
+GAS,Tổng Công ty Khí Việt Nam,HOSE,7573,Phân phối xăng dầu & khí đốt,non_financial,https://cafef.vn/du-lieu/hose/gas-tong-cong-ty-khi-viet-namctcp.chn,2026-7-27,1
+VCB,Vietcombank,HOSE,8350,Ngân hàng,bank,https://cafef.vn/du-lieu/hose/vcb-ngan-hang-thuong-mai-co-phan-ngoai-thuong-viet-nam.chn,2026-7-27,0
+TCB,Techcombank,HOSE,8350,Ngân hàng,bank,https://cafef.vn/du-lieu/hose/tcb-ngan-hang-tmcp-ky-thuong-viet-nam-techcombank.chn,2026-7-27,0
+NVL,Tập đoàn Novaland,HOSE,8633,Bất động sản,non_financial,https://cafef.vn/du-lieu/hose/nvl-cong-ty-co-phan-tap-doan-dau-tu-dia-oc-no-va.chn,2026-7-27,1
+PDR,BĐS Phát Đạt,HOSE,8633,Bất động sản,non_financial,https://cafef.vn/du-lieu/hose/pdr-cong-ty-co-phan-phat-trien-bat-dong-san-phat-dat.chn,2026-7-27,1
+DXG,Tập đoàn Đất Xanh,HOSE,8633,Bất động sản,non_financial,https://cafef.vn/du-lieu/hose/dxg-cong-ty-co-phan-bluemarq-group.chn,2026-7-27,1
+KBC,Đô thị Kinh Bắc,HOSE,8633,Bất động sản,non_financial,https://cafef.vn/du-lieu/hose/kbc-tong-cong-ty-phat-trien-do-thi-kinh-bacctcp.chn,2026-7-27,1
+SSI,Chứng khoán SSI,HOSE,8777,Môi giới chứng khoán,securities,https://cafef.vn/du-lieu/hose/ssi-cong-ty-co-phan-chung-khoan-ssi.chn,2026-7-27,0
+VND,Chứng khoán VNDIRECT,HOSE,8777,Môi giới chứng khoán,securities,https://cafef.vn/du-lieu/hose/vnd-cong-ty-co-phan-chung-khoan-vndirect.chn,2026-7-27,0
+FPT,CTCP FPT,HOSE,9530,Phần mềm & Dịch vụ Máy tính,non_financial,https://cafef.vn/du-lieu/hose/fpt-cong-ty-co-phan-fpt.chn,2026-7-27,1

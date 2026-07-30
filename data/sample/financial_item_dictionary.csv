@@ -1,0 +1,189 @@
+item_id,statement_type,canonical_name,item_name_vi,sign_rule,unit,use_for_feature
+bsa1,balance_sheet,current_assets,TÀI SẢN NGẮN HẠN,always_positive,VND,1
+bsa10,balance_sheet,advances_to_suppliers,Trả trước người bán,always_positive,VND,1
+bsa11,balance_sheet,intercompany_receivables,Phải thu nội bộ,always_positive,VND,1
+bsa12,balance_sheet,construction_contract_receivables,Phải thu hợp đồng xây dựng đang thực hiện,always_positive,VND,1
+bsa120,balance_sheet,preferred_shares,Cổ phiếu ưu đãi,always_positive,VND,0
+bsa13,balance_sheet,other_receivables,Phải thu khác,always_positive,VND,1
+bsa14,balance_sheet,allowance_for_doubtful_accounts,Dự phòng nợ khó đòi,contra_asset,VND,1
+bsa15,balance_sheet,net_inventory,"Hàng tồn kho, ròng",always_positive,VND,1
+bsa159,balance_sheet,short_term_loans_receivable,Phải thu cho vay ngắn hạn,always_positive,VND,1
+bsa16,balance_sheet,inventory,Hàng tồn kho,always_positive,VND,1
+bsa160,balance_sheet,government_bond_repo_transactions,Giao dịch mua bán lại trái phiếu Chính phủ,always_positive,VND,0
+bsa161,balance_sheet,long_term_advances_to_suppliers,Trả trước người bán dài hạn,always_positive,VND,1
+bsa162,balance_sheet,long_term_loans_receivable,Phải thu cho vay dài hạn,always_positive,VND,1
+bsa163,balance_sheet,long_term_work_in_progress,Tài sản dở dang dài hạn,always_positive,VND,1
+bsa164,balance_sheet,long_term_construction_in_progress,"Chi phí sản xuất, kinh doanh dở dang dài hạn",always_positive,VND,1
+bsa165,balance_sheet,held_to_maturity_investments,Đầu tư nắm giữ đến ngày đáo hạn,always_positive,VND,1
+bsa166,balance_sheet,long_term_spare_parts,"Thiết bị, vật tư, phụ tùng thay thế dài hạn",always_positive,VND,1
+bsa167,balance_sheet,deferred_revenue_current,Doanh thu chưa thực hiện ngắn hạn,always_positive,VND,1
+bsa168,balance_sheet,price_stabilization_fund,Quỹ bình ổn giá,always_positive,VND,0
+bsa169,balance_sheet,government_bond_repo_transactions,Giao dịch mua bán lại trái phiếu chính phủ,always_positive,VND,0
+bsa17,balance_sheet,inventory_write_down_allowance,Dự phòng giảm giá hàng tồn kho,contra_asset,VND,1
+bsa170,balance_sheet,long_term_customer_advances,Người mua trả tiền trước dài hạn,always_positive,VND,1
+bsa171,balance_sheet,long_term_accrued_expenses,Chi phí phải trả dài hạn,always_positive,VND,1
+bsa172,balance_sheet,intercompany_capital_payables,Phải trả nội bộ về vốn kinh doanh,always_positive,VND,0
+bsa173,balance_sheet,convertible_bonds,Trái phiếu chuyển đổi,always_positive,VND,0
+bsa174,balance_sheet,preferred_shares,Cổ phiếu ưu đãi,always_positive,VND,0
+bsa175,balance_sheet,common_shares,Cổ phiếu phổ thông,always_positive,VND,0
+bsa176,balance_sheet,bond_conversion_options,Quyền chọn chuyển đổi trái phiếu,always_positive,VND,0
+bsa177,balance_sheet,retained_earnings_beginning,LNST chưa phân phối lũy kế đến cuối kỳ trước,signed,VND,1
+bsa178,balance_sheet,retained_earnings_current_year,LNST chưa phân phối kỳ này,signed,VND,1
+bsa18,balance_sheet,other_current_assets,Tài sản lưu động khác,always_positive,VND,1
+bsa188,balance_sheet,construction_in_progress,Xây dựng cơ bản đang dở dang,always_positive,VND,1
+bsa19,balance_sheet,short_term_prepaid_expenses,Chi phí trả trước ngắn hạn,always_positive,VND,1
+bsa2,balance_sheet,cash_and_cash_equivalents,Tiền và tương đương tiền,always_positive,VND,1
+bsa20,balance_sheet,deductible_vat,Thuế GTGT được khấu trừ,always_positive,VND,1
+bsa209,balance_sheet,goodwill,Lợi thế thương mại,always_positive,VND,0
+bsa21,balance_sheet,other_tax_receivables,Phải thu thuế khác,always_positive,VND,1
+bsa210,balance_sheet,non_controlling_interests,Lợi ích cổ đông không kiểm soát,always_positive,VND,0
+bsa211,balance_sheet,asset_formation_funds,Nguồn kinh phí đã hình thành TSCĐ,always_positive,VND,0
+bsa22,balance_sheet,other_current_assets_other,Tài sản lưu động khác,always_positive,VND,1
+bsa23,balance_sheet,non_current_assets,TÀI SẢN DÀI HẠN,always_positive,VND,0
+bsa24,balance_sheet,long_term_receivables,Phải thu dài hạn,always_positive,VND,1
+bsa25,balance_sheet,long_term_trade_receivables,Phải thu khách hàng dài hạn,always_positive,VND,1
+bsa26,balance_sheet,long_term_intercompany_receivables,Phải thu nội bộ dài hạn,always_positive,VND,1
+bsa27,balance_sheet,other_long_term_receivables,Phải thu dài hạn khác,always_positive,VND,1
+bsa28,balance_sheet,allowance_for_long_term_receivables,Dự phòng phải thu dài hạn,always_positive,VND,1
+bsa29,balance_sheet,fixed_assets,Tài sản cố định,always_positive,VND,1
+bsa3,balance_sheet,cash,Tiền,always_positive,VND,1
+bsa30,balance_sheet,net_property_plant_and_equipment,GTCL TSCĐ hữu hình,always_positive,VND,1
+bsa31,balance_sheet,gross_property_plant_and_equipment,Nguyên giá TSCĐ hữu hình,always_positive,VND,1
+bsa32,balance_sheet,accumulated_depreciation_pp_and_e,Khấu hao lũy kế TSCĐ hữu hình,contra_asset,VND,1
+bsa33,balance_sheet,net_finance_lease_assets,GTCL tài sản thuê tài chính,always_positive,VND,1
+bsa34,balance_sheet,gross_finance_lease_assets,Nguyên giá tài sản thuê tài chính,always_positive,VND,1
+bsa35,balance_sheet,accumulated_depreciation_finance_lease,Khấu hao lũy kế tài sản thuê tài chính,contra_asset,VND,1
+bsa36,balance_sheet,net_intangible_assets,GTCL tài sản cố định vô hình,always_positive,VND,1
+bsa37,balance_sheet,gross_intangible_assets,Nguyên giá TSCĐ vô hình,always_positive,VND,1
+bsa38,balance_sheet,accumulated_amortization,Khấu hao lũy kế TSCĐ vô hình,contra_asset,VND,1
+bsa39,balance_sheet,construction_in_progress_pre2015,Xây dựng cơ bản đang dang dở (trước 2015),always_positive,VND,1
+bsa4,balance_sheet,cash_equivalents,Các khoản tương đương tiền,always_positive,VND,1
+bsa40,balance_sheet,net_investment_property,Giá trị ròng tài sản đầu tư,always_positive,VND,1
+bsa41,balance_sheet,gross_investment_property,Nguyên giá tài sản đầu tư,always_positive,VND,1
+bsa42,balance_sheet,accumulated_depreciation_investment_property,Khấu hao lũy kế tài sản đầu tư,contra_asset,VND,1
+bsa43,balance_sheet,long_term_investments,Đầu tư dài hạn,always_positive,VND,1
+bsa44,balance_sheet,investments_in_subsidiaries,Đầu tư vào các công ty con,always_positive,VND,1
+bsa45,balance_sheet,investments_in_associates,Đầu tư vào các công ty liên kết,always_positive,VND,1
+bsa46,balance_sheet,other_long_term_investments,Đầu tư dài hạn khác,always_positive,VND,1
+bsa47,balance_sheet,allowance_for_long_term_investments,Dự phòng giảm giá đầu tư dài hạn,contra_asset,VND,1
+bsa48,balance_sheet,goodwill_pre2015,Lợi thế thương mại (trước 2015),always_positive,VND,0
+bsa49,balance_sheet,other_non_current_assets,Tài sản dài hạn khác,always_positive,VND,1
+bsa5,balance_sheet,short_term_investments,Đầu tư ngắn hạn,always_positive,VND,1
+bsa50,balance_sheet,long_term_prepaid_expenses,Trả trước dài hạn,always_positive,VND,1
+bsa51,balance_sheet,deferred_tax_assets,Thuế thu nhập hoãn lại,always_positive,VND,1
+bsa52,balance_sheet,other_long_term_assets,Các tài sản dài hạn khác,always_positive,VND,1
+bsa53,balance_sheet,total_assets,TỔNG CỘNG TÀI SẢN,always_positive,VND,1
+bsa54,balance_sheet,total_liabilities,NỢ PHẢI TRẢ,always_positive,VND,1
+bsa55,balance_sheet,current_liabilities,Nợ ngắn hạn,always_positive,VND,1
+bsa56,balance_sheet,short_term_borrowings,Vay ngắn hạn,always_positive,VND,1
+bsa57,balance_sheet,trade_payables,Phải trả người bán,always_positive,VND,1
+bsa58,balance_sheet,customer_advances,Người mua trả tiền trước,always_positive,VND,1
+bsa59,balance_sheet,taxes_payable,Thuế và các khoản phải trả Nhà nước,always_positive,VND,1
+bsa6,balance_sheet,trading_securities,Đầu tư ngắn hạn,always_positive,VND,1
+bsa60,balance_sheet,employee_payables,Phải trả người lao động,always_positive,VND,1
+bsa61,balance_sheet,accrued_expenses,Chi phí phải trả,always_positive,VND,1
+bsa62,balance_sheet,intercompany_payables,Phải trả nội bộ,always_positive,VND,1
+bsa63,balance_sheet,construction_payables,Phải trả về xây dựng cơ bản,always_positive,VND,1
+bsa64,balance_sheet,other_payables,Phải trả khác,always_positive,VND,1
+bsa65,balance_sheet,current_provisions,Dự phòng các khoản phải trả ngắn hạn,always_positive,VND,1
+bsa66,balance_sheet,bonus_and_welfare_fund,"Quỹ khen thưởng, phúc lợi",always_positive,VND,0
+bsa67,balance_sheet,non_current_liabilities,Nợ dài hạn,always_positive,VND,1
+bsa68,balance_sheet,long_term_trade_payables,Phải trả nhà cung cấp dài hạn,always_positive,VND,1
+bsa69,balance_sheet,long_term_intercompany_payables,Phải trả nội bộ dài hạn,always_positive,VND,1
+bsa7,balance_sheet,investment_allowance,Dự phòng giảm giá,contra_asset,VND,1
+bsa70,balance_sheet,other_long_term_payables,Phải trả dài hạn khác,always_positive,VND,1
+bsa71,balance_sheet,long_term_borrowings,Vay dài hạn,always_positive,VND,1
+bsa72,balance_sheet,deferred_tax_liabilities,Thuế thu nhập hoãn lại,always_positive,VND,1
+bsa73,balance_sheet,severance_provision,Dự phòng trợ cấp thôi việc,always_positive,VND,1
+bsa74,balance_sheet,long_term_provisions,Dự phòng các khoản nợ dài hạn,always_positive,VND,1
+bsa76,balance_sheet,deferred_revenue,Doanh thu chưa thực hiện,always_positive,VND,1
+bsa77,balance_sheet,science_and_technology_fund,Quỹ phát triển khoa học công nghệ,always_positive,VND,0
+bsa78,balance_sheet,equity,Vốn chủ sở hữu,signed,VND,1
+bsa79,balance_sheet,capital_and_reserves,Vốn và các quỹ,always_positive,VND,0
+bsa8,balance_sheet,receivables,Các khoản phải thu,always_positive,VND,1
+bsa80,balance_sheet,contributed_capital,Vốn góp,always_positive,VND,1
+bsa81,balance_sheet,share_premium,Thặng dư vốn cổ phần,always_positive,VND,1
+bsa82,balance_sheet,other_capital,Vốn khác,always_positive,VND,0
+bsa83,balance_sheet,treasury_shares,Cổ phiếu quỹ,contra_asset,VND,0
+bsa84,balance_sheet,asset_revaluation_surplus,Chênh lệch đánh giá lại tài sản,signed,VND,0
+bsa85,balance_sheet,foreign_currency_translation_reserve,Chênh lệch tỷ giá,signed,VND,0
+bsa86,balance_sheet,investment_and_development_fund,Quỹ đầu tư và phát triển,always_positive,VND,0
+bsa87,balance_sheet,financial_reserve_fund,Quỹ dự phòng tài chính,always_positive,VND,0
+bsa89,balance_sheet,other_funds,Quỹ khác,always_positive,VND,0
+bsa9,balance_sheet,trade_receivables,Phải thu khách hàng,always_positive,VND,1
+bsa90,balance_sheet,retained_earnings,Lãi chưa phân phối,signed,VND,1
+bsa91,balance_sheet,enterprise_restructuring_fund,Quỹ hỗ trợ sắp xếp doanh nghiệp,always_positive,VND,0
+bsa92,balance_sheet,state_capital_and_other_funds,Vốn Ngân sách nhà nước và quỹ khác,always_positive,VND,0
+bsa93,balance_sheet,bonus_and_welfare_fund_pre2010,"Quỹ khen thưởng, phúc lợi (trước 2010)",always_positive,VND,0
+bsa94,balance_sheet,state_budget_capital_and_other_funds,Vốn ngân sách nhà nước và quỹ khác,always_positive,VND,0
+bsa95,balance_sheet,minority_interest,Lợi ích của cổ đông thiểu số,always_positive,VND,0
+bsa96,balance_sheet,total_equity_and_liabilities,Tổng cộng nguồn vốn,always_positive,VND,1
+bsb108,balance_sheet,held_to_maturity_investments,Đầu tư nắm giữ đến ngày đáo hạn,always_positive,VND,1
+bsi141,balance_sheet,assets_pending_disposal,Tài sản thiếu cần xử lý,always_positive,VND,0
+bss134,balance_sheet,branch_operating_capital,Vốn kinh doanh ở các đơn vị trực thuộc,always_positive,VND,0
+cfa1,cash_flow,profit_before_tax,Lợi nhuận/(lỗ) trước thuế,signed,VND,1
+cfa10,cash_flow,change_in_receivables,(Tăng)/giảm các khoản phải thu,signed,VND,1
+cfa103,cash_flow,goodwill_amortization,Phân bổ lợi thế thương mại,always_positive,VND,0
+cfa104,cash_flow,other_adjustments,Các khoản điều chỉnh khác,signed,VND,0
+cfa105,cash_flow,change_in_trading_securities,(Tăng)/giảm chứng khoán kinh doanh,signed,VND,1
+cfa11,cash_flow,change_in_inventory,(Tăng)/giảm hàng tồn kho,signed,VND,1
+cfa12,cash_flow,change_in_payables,Tăng/(giảm) các khoản phải trả,signed,VND,1
+cfa13,cash_flow,change_in_prepaid_expenses,(Tăng)/giảm chi phí trả trước,signed,VND,1
+cfa14,cash_flow,interest_paid,Tiền lãi vay đã trả,expense_negative,VND,1
+cfa15,cash_flow,income_tax_paid,Thuế thu nhập doanh nghiệp đã nộp,expense_negative,VND,1
+cfa16,cash_flow,other_operating_cash_inflows,Tiền thu khác từ hoạt động kinh doanh,always_positive,VND,1
+cfa17,cash_flow,other_operating_cash_outflows,Tiền chi khác cho hoạt động kinh doanh,expense_negative,VND,1
+cfa18,cash_flow,net_cash_from_operating_activities,Lưu chuyển tiền tệ ròng từ các hoạt động sản xuất kinh doanh,signed,VND,1
+cfa19,cash_flow,purchase_of_fixed_and_long_term_assets,"Tiền chi để mua sắm, xây dựng TSCĐ và các tài sản dài hạn khác",expense_negative,VND,1
+cfa2,cash_flow,depreciation_and_amortization,Khấu hao TSCĐ và BĐSĐT,always_positive,VND,1
+cfa20,cash_flow,proceeds_from_sale_of_fixed_and_long_term_assets,"Tiền thu từ thanh lý, nhượng bán TSCĐ và các tài sản dài hạn khác",always_positive,VND,1
+cfa21,cash_flow,loans_and_debt_instruments_issued,"Tiền chi cho vay, mua các công cụ nợ của đơn vị khác",expense_negative,VND,1
+cfa22,cash_flow,collection_of_loans_and_debt_instruments,"Tiền thu hồi cho vay, bán lại các công cụ nợ của đơn vị khác",always_positive,VND,1
+cfa23,cash_flow,investments_in_other_entities,Tiền chi đầu tư góp vốn vào đơn vị khác,expense_negative,VND,1
+cfa24,cash_flow,proceeds_from_divestments,Tiền thu hồi đầu tư góp vốn vào đơn vị khác,always_positive,VND,1
+cfa25,cash_flow,interest_and_dividends_received,"Tiền thu lãi cho vay, cổ tức và lợi nhuận được chia",signed,VND,1
+cfa26,cash_flow,net_cash_from_investing_activities,Lưu chuyển tiền thuần từ hoạt động đầu tư,signed,VND,1
+cfa27,cash_flow,proceeds_from_share_issuance,"Tiền thu từ phát hành cổ phiếu, nhận vốn góp của chủ sở hữu",always_positive,VND,1
+cfa28,cash_flow,share_buyback_and_capital_repayment,"Tiền chi trả vốn góp cho các chủ sở hữu, mua lại cổ phiếu của doanh nghiệp đã phát hành",expense_negative,VND,1
+cfa29,cash_flow,proceeds_from_borrowings,Tiền thu được các khoản đi vay,always_positive,VND,1
+cfa3,cash_flow,provisions_expense,Chi phí dự phòng,signed,VND,1
+cfa30,cash_flow,repayment_of_borrowings,Tiền trả nợ gốc vay,expense_negative,VND,1
+cfa31,cash_flow,repayment_of_finance_lease_liabilities,Tiền trả nợ gốc thuê tài chính,expense_negative,VND,1
+cfa32,cash_flow,dividends_paid,"Cổ tức, lợi nhuận đã trả cho chủ sở hữu",signed,VND,1
+cfa33,cash_flow,interest_received,Tiền lãi đã nhận,always_positive,VND,1
+cfa34,cash_flow,net_cash_from_financing_activities,Lưu chuyển tiền thuần từ hoạt động tài chính,signed,VND,1
+cfa35,cash_flow,net_change_in_cash,Lưu chuyển tiền thuần trong kỳ,signed,VND,1
+cfa36,cash_flow,cash_and_cash_equivalents_beginning,Tiền và tương đương tiền đầu kỳ,always_positive,VND,1
+cfa37,cash_flow,effect_of_exchange_rate_changes,Ảnh hưởng của thay đổi tỷ giá hối đoái quy đổi ngoại tệ,signed,VND,1
+cfa38,cash_flow,cash_and_cash_equivalents_ending,Tiền và tương đương tiền cuối kỳ,always_positive,VND,1
+cfa4,cash_flow,foreign_exchange_gain_loss,Lãi/lỗ chênh lệch tỷ giá hối đoái do đánh giá lại các khoản mục tiền tệ có gốc ngoại tệ,signed,VND,1
+cfa5,cash_flow,gain_loss_on_disposal_of_fixed_assets,Lãi/(lỗ) từ thanh lý tài sản cố định,signed,VND,1
+cfa6,cash_flow,gain_loss_from_investing_activities,(Lãi)/lỗ từ hoạt động đầu tư,signed,VND,1
+cfa7,cash_flow,interest_expense,Chi phí lãi vay,signed,VND,1
+cfa8,cash_flow,interest_and_dividends_income,Thu lãi và cổ tức,always_positive,VND,1
+cfa9,cash_flow,operating_profit_before_working_capital_changes,Lợi nhuận/(lỗ) từ hoạt động kinh doanh trước những thay đổi vốn lưu động,signed,VND,1
+isa1,income_statement,sales_revenue,Doanh thu bán hàng và cung cấp dịch vụ,always_positive,VND,1
+isa10,income_statement,general_and_administrative_expenses,Chi phí quản lý doanh nghiệp,expense_negative,VND,1
+isa102,income_statement,share_of_profit_loss_associates_2015,Lãi/(lỗ) từ công ty liên doanh (từ năm 2015),signed,VND,0
+isa11,income_statement,operating_profit,Lãi/(lỗ) từ hoạt động kinh doanh,signed,VND,1
+isa12,income_statement,other_income,Thu nhập khác,always_positive,VND,1
+isa13,income_statement,other_expenses,Chi phí khác,expense_negative,VND,1
+isa14,income_statement,net_other_income,"Thu nhập khác, ròng",always_positive,VND,1
+isa15,income_statement,share_of_profit_loss_associates,Lãi/(lỗ) từ công ty liên doanh,signed,VND,0
+isa16,income_statement,profit_before_tax,Lãi/(lỗ) trước thuế,signed,VND,1
+isa17,income_statement,current_income_tax_expense,Thuế thu nhập doanh nghiệp - hiện thời,expense_negative,VND,1
+isa18,income_statement,deferred_income_tax_expense,Thuế thu nhập doanh nghiệp - hoãn lại,expense_negative,VND,1
+isa19,income_statement,income_tax_expense,Chi phí thuế thu nhập doanh nghiệp,expense_negative,VND,1
+isa2,income_statement,sales_deductions,Các khoản giảm trừ doanh thu,expense_negative,VND,1
+isa20,income_statement,net_income_after_tax,Lãi/(lỗ) thuần sau thuế,signed,VND,1
+isa21,income_statement,non_controlling_interests,Lợi ích của cổ đông thiểu số,signed,VND,0
+isa22,income_statement,profit_attributable_to_parent,Lợi nhuận của Cổ đông của Công ty mẹ,signed,VND,1
+isa23,income_statement,basic_earnings_per_share,Lãi cơ bản trên cổ phiếu (VND),signed,VND,0
+isa24,income_statement,diluted_earnings_per_share,Lãi trên cổ phiếu pha loãng (VND),signed,VND,0
+isa3,income_statement,net_revenue,Doanh thu thuần,always_positive,VND,1
+isa4,income_statement,cost_of_goods_sold,Giá vốn hàng bán,expense_negative,VND,1
+isa5,income_statement,gross_profit,Lợi nhuận gộp,signed,VND,1
+isa6,income_statement,financial_income,Doanh thu hoạt động tài chính,always_positive,VND,1
+isa7,income_statement,financial_expenses,Chi phí tài chính,expense_negative,VND,1
+isa8,income_statement,interest_expense,Chi phí lãi vay,expense_negative,VND,1
+isa9,income_statement,selling_expenses,Chi phí bán hàng,expense_negative,VND,1
