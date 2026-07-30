@@ -1,117 +1,208 @@
-FinHealth AI - Hệ thống AI phân tích sức khỏe tài chính doanh nghiệp
-
-
-
-1. Tên và Logo dự án
-Tên dự án: FinHealth AI (Financial Intelligence Platform)
-
-Logo dự án: ![FinHealth AI Logo](images/logo.png) 
-            
-Thông điệp: Nền tảng trí tuệ nhân tạo hỗ trợ đánh giá sức khỏe tài chính và cảnh báo rủi ro doanh nghiệp tự động, minh bạch.
+# FinHealth AI - Hệ thống AI phân tích sức khỏe tài chính doanh nghiệp
 
 ---
 
-2. Mô tả bài toán
-Hiện nay, việc phân tích báo cáo tài chính (BCTC) truyền thống tốn nhiều thời gian và dễ mang tính chủ quan. FinHealth AI được phát triển nhằm tự động hóa quá trình phân tích BCTC, chấm điểm sức khỏe tài chính chuẩn hóa và dự báo sớm khả năng xuất hiện sự kiện suy giảm hoặc cảnh báo tài chính trong 12 tháng tiếp theo.
+## 1. Tên và Logo dự án
 
-Phạm vi doanh nghiệp: Tập trung vào các doanh nghiệp phi tài chính đang niêm yết hoặc có đăng ký giao dịch (không áp dụng cho Ngân hàng, Chứng khoán, Bảo hiểm do sự khác biệt về cấu trúc BCTC).
+**Tên dự án:** FinHealth AI *(Financial Intelligence Platform)*
 
-Kỳ dự báo: 12 tháng tiếp theo.
+**Logo dự án**
 
-Phạm vi dữ liệu: Dữ liệu BCTC theo năm, thu thập trong giai đoạn 2017 – 2025 nhằm đảm bảo tính xu hướng và độ dày của tập huấn luyện.
+![FinHealth AI Logo](images/logo.png)
 
----
-
-3. Đối tượng sử dụng & Quyết định được hỗ trợ
-
-Hệ thống hướng tới các chuyên gia tài chính với các quyết định hỗ trợ thực tiễn:
-
-Chuyên viên tín dụng (Ngân hàng / Tổ chức tài chính) Phê duyệt hoặc từ chối cấp tín dụng mới. Điều chỉnh định mức tín dụng. Đưa doanh nghiệp vào danh sách kiểm soát/cảnh báo rủi ro định kỳ. 
-
-Nhà đầu tư (Cá nhân / Tổ chức). Tối ưu quyết định mua, bán hoặc nắm giữ cổ phiếu. Cấu trúc lại danh mục đầu tư để hạn chế rủi ro từ doanh nghiệp suy yếu. 
-
-Kiểm toán viên & Nhà quản trị. Sử dụng như công cụ tham khảo chéo và tự đánh giá sức khỏe tài chính nội bộ. 
+> **Thông điệp:** Nền tảng trí tuệ nhân tạo hỗ trợ đánh giá sức khỏe tài chính và cảnh báo rủi ro doanh nghiệp tự động, minh bạch.
 
 ---
 
-4. Các chức năng chính
-Phân tích toàn diện & Chấm điểm tự động: Đánh giá sức khỏe tài chính (*Financial Health Score*) theo chuẩn 5 nhóm tiêu chí (Thanh toán, Đòn bẩy, Sinh lời, Dòng tiền, Hiệu quả hoạt động).
+## 2. Mô tả bài toán
 
-Cảnh báo rủi ro sớm: Dự báo xác suất rủi ro trong 12 tháng tới, giúp phát hiện sớm dấu hiệu khủng hoảng.
+Việc phân tích Báo cáo tài chính (BCTC) theo phương pháp truyền thống thường tốn nhiều thời gian và phụ thuộc vào đánh giá chủ quan của chuyên gia.
 
-Tính minh bạch (Explainable AI - XAI): Giải thích chi tiết các yếu tố ảnh hưởng đến kết quả dự báo (ví dụ: Dòng tiền âm, nợ tăng nhanh...).
+**FinHealth AI** được phát triển nhằm:
 
-Phân tích tương quan & Giả định (What-if): So sánh doanh nghiệp với vị thế trung vị cùng ngành và mô phỏng kịch bản giả định.
+- Tự động hóa quá trình phân tích BCTC.
+- Chấm điểm sức khỏe tài chính theo tiêu chuẩn.
+- Dự báo sớm nguy cơ suy giảm tài chính trong **12 tháng tiếp theo**.
 
-Trợ lý AI & Báo cáo tự động: Trợ lý thông minh hỗ trợ hỏi đáp trực tiếp trên dữ liệu doanh nghiệp và xuất báo cáo PDF tự động.
+### Phạm vi nghiên cứu
+
+- **Đối tượng:** Doanh nghiệp phi tài chính niêm yết hoặc đăng ký giao dịch.
+- **Không áp dụng:** Ngân hàng, Chứng khoán, Bảo hiểm.
+- **Kỳ dự báo:** 12 tháng.
+- **Nguồn dữ liệu:** Báo cáo tài chính giai đoạn **2017–2025**.
 
 ---
 
-5. Sơ đồ giải pháp
-![FinHealth AI Logo](images/SoDoGiaiPhap.png)
+## 3. Đối tượng sử dụng
 
-6. Ảnh chụp dashboard dự kiến
-![FinHealth AI Logo](images/GiaoDien.png)
+### Chuyên viên tín dụng
 
-7. Link demo
+- Phê duyệt hoặc từ chối cấp tín dụng.
+- Điều chỉnh hạn mức tín dụng.
+- Đưa doanh nghiệp vào danh sách cảnh báo.
 
-GitHub: 
+### Nhà đầu tư
 
-8. Nguồn dữ liệu dự kiến
+- Hỗ trợ quyết định Mua / Bán / Nắm giữ.
+- Tái cơ cấu danh mục đầu tư.
+- Phát hiện doanh nghiệp có dấu hiệu suy giảm.
 
-Dữ liệu Báo cáo Tài chính kiểm toán hàng năm của các doanh nghiệp phi tài chính niêm yết trên các sàn HOSE, HNX và UPCoM.
+### Kiểm toán viên & Nhà quản trị
 
-Giai đoạn thu thập: 2017 – 2025.
+- Đánh giá sức khỏe tài chính.
+- Tham khảo chéo trong quá trình kiểm toán.
+- Hỗ trợ ra quyết định quản trị.
 
-9. Phương pháp Machine Learning
+---
 
-Dự báo rủi ro (Supervised Learning): Sử dụng các mô hình học máy phân lớp như XGBoost, Random Forest, LightGBM để tính xác suất rủi ro tài chính 12 tháng.
+## 4. Chức năng chính
 
-Giải thích mô hình (XAI): Áp dụng SHAP (SHapley Additive exPlanations) để minh bạch hóa các biến số đóng góp vào điểm rủi ro.
+### Phân tích & Chấm điểm
 
-Trợ lý AI (LLM + RAG): Kết hợp mô hình ngôn ngữ lớn (LLM) và kỹ thuật RAG để truy xuất thông tin từ BCTC.
+Đánh giá **Financial Health Score** theo 5 nhóm tiêu chí:
 
-10. Công nghệ sử dụng 
+- Thanh khoản
+- Đòn bẩy tài chính
+- Khả năng sinh lời
+- Dòng tiền
+- Hiệu quả hoạt động
 
-Frontend Demo: HTML5, CSS3, JavaScript (Pure Native)
+### Cảnh báo rủi ro
 
-Thư viện UI/Icon: Lucide Icons, Google Fonts (Plus Jakarta Sans)
+- Dự báo xác suất rủi ro trong 12 tháng.
+- Phát hiện sớm dấu hiệu khủng hoảng.
 
-Biểu đồ: ApexCharts
+### Explainable AI (XAI)
 
-Deployment: GitHub Pages
+Giải thích các yếu tố ảnh hưởng đến kết quả dự báo như:
 
-11. Trạng thái hiện tại
+- Dòng tiền âm
+- Nợ tăng nhanh
+- Khả năng thanh toán giảm
+- ...
 
-[x] Đã hoàn thành bản mockup tương tác của màn hình lựa chọn doanh nghiệp và Dashboard tổng quan.
+### What-if Analysis
 
-[x] Đã xây dựng 15 hồ sơ doanh nghiệp giả lập được khai báo trong frontend để kiểm thử chức năng tìm kiếm, chuyển đổi doanh nghiệp và trực quan hóa giao diện. Các số liệu chỉ dùng để minh họa và chưa phải kết quả của mô hình học máy.
+- So sánh với trung vị ngành.
+- Mô phỏng các kịch bản tài chính.
 
-[x] Hoàn thiện các luồng tương tác: Tìm kiếm doanh nghiệp, Tải tệp BCTC, Biểu đồ xu hướng, Trợ lý AI mô phỏng.
+### AI Assistant
 
-12. Kế hoạch phát triển Vòng 2
+- Hỏi đáp trực tiếp trên dữ liệu doanh nghiệp.
+- Xuất báo cáo PDF tự động.
 
-Kết nối Frontend với Backend (FastAPI/Python).
+---
 
-Huấn luyện và tích hợp mô hình Machine Learning thực tế trên tập dữ liệu 2017–2025.
+## 5. Sơ đồ giải pháp
 
-Mở rộng pipeline RAG để tự động đọc và phân tích file BCTC dạng PDF.
+![Solution](images/SoDoGiaiPhap.png)
 
-Hoàn thiện chức năng Xuất báo cáo đánh giá định dạng PDF.
+---
 
-13. Hướng dẫn chạy thử
+## 6. Dashboard Demo
 
-Truy cập đường link sau: 
+![Dashboard](images/GiaoDien.png)
 
-14. Thành viên và phân công
+---
 
-| STT |    Họ và Tên      |        Vai trò         |          Nhiệm vụ chính    |
+## 7. Demo
 
-|   1    |     Trần Bảo Lan     | Trưởng nhóm / Product Owner | Quản lý tiến độ, chốt phạm vi, tổng hợp hồ sơ, điều phối và chuẩn bị pitching |
-|   2    | Trần Thị Bảo Yến | Phụ trách Tài chính – Dữ liệu | Nghiên cứu nghiệp vụ, thu thập dữ liệu, chuẩn hóa chỉ tiêu, xây dựng nhãn rủi ro |
-|   3    | Đỗ Quốc Khánh | Phụ trách Machine Learning | Xây dựng đặc trưng, huấn luyện mô hình, đánh giá, hiệu chỉnh và XAI |
-|   4    | Lương Trung Dương | Phụ trách Backend – Dữ liệu | Xây dựng cơ sở dữ liệu, API, pipeline xử lý file và tích hợp mô hình |
-|   5    | Đặng Hải Phi Trường | Phụ trách Frontend – Sản phẩm | Thiết kế giao diện, dashboard, trực quan hóa, kiểm thử trải nghiệm và hỗ trợ slide |
+- **GitHub:** https://q-rexteam.github.io/FinHealth-AI/
 
-15. Miễn trừ trách nhiệm (Disclaimer)
-⚠️ Lưu ý: Kết quả phân tích và dự báo từ hệ thống FinHealth AI chỉ đóng vai trò hỗ trợ thông tin và tham khảo chéo. Hệ thống không thay thế cho quyết định thẩm định chính thức của chuyên gia tài chính hay khuyến nghị đầu tư pháp lý.
+
+---
+
+## 8. Nguồn dữ liệu
+
+- Báo cáo tài chính kiểm toán của doanh nghiệp phi tài chính.
+- Các sàn:
+  - HOSE
+  - HNX
+  - UPCoM
+- Giai đoạn: **2017–2025**
+
+---
+
+## 9. Phương pháp Machine Learning
+
+### Dự báo rủi ro
+
+Các mô hình:
+
+- XGBoost
+- Random Forest
+- LightGBM
+
+### Explainable AI
+
+- SHAP (SHapley Additive exPlanations)
+
+### AI Assistant
+
+- Large Language Model (LLM)
+- Retrieval-Augmented Generation (RAG)
+
+---
+
+## 10. Công nghệ sử dụng
+
+| Thành phần | Công nghệ |
+|------------|-----------|
+| Frontend | HTML5, CSS3, JavaScript |
+| UI | Lucide Icons, Google Fonts |
+| Charts | ApexCharts |
+| Backend *(giai đoạn 2)* | FastAPI, Python |
+| AI/ML | Scikit-learn, XGBoost, LightGBM |
+| Database | PostgreSQL *(dự kiến)* |
+| Deployment | GitHub Pages |
+
+---
+
+## 11. Trạng thái hiện tại
+
+- [x] Hoàn thành mockup giao diện Dashboard và màn hình lựa chọn doanh nghiệp.
+- [x] Xây dựng 15 hồ sơ doanh nghiệp giả lập phục vụ kiểm thử giao diện.
+- [x] Hoàn thiện các chức năng:
+  - Tìm kiếm doanh nghiệp
+  - Chuyển đổi doanh nghiệp
+  - Tải tệp BCTC
+  - Biểu đồ xu hướng
+  - Trợ lý AI mô phỏng
+
+> **Lưu ý:** Các số liệu hiện tại chỉ phục vụ mục đích minh họa giao diện, chưa phải kết quả từ mô hình Machine Learning.
+
+---
+
+## 12. Kế hoạch phát triển
+
+- [ ] Kết nối Frontend với Backend (FastAPI/Python).
+- [ ] Huấn luyện mô hình Machine Learning trên dữ liệu 2017–2025.
+- [ ] Xây dựng pipeline RAG tự động đọc BCTC PDF.
+- [ ] Hoàn thiện chức năng xuất báo cáo PDF.
+- [ ] Triển khai hệ thống lên Cloud.
+
+---
+
+## 13. Hướng dẫn chạy thử
+
+📄 **Tài liệu hướng dẫn**
+
+[Xem hướng dẫn chạy thử (PDF)](./docs/Hướng%20dẫn%20chạy%20thử.pdf)
+
+---
+
+## 14. Thành viên và phân công
+
+| STT | Họ và tên | Vai trò | Nhiệm vụ chính |
+|:---:|-----------|---------|----------------|
+| **1** | Trần Bảo Lan | **Trưởng nhóm / Product Owner** | Quản lý tiến độ, chốt phạm vi dự án, tổng hợp hồ sơ, điều phối nhóm và chuẩn bị pitching. |
+| **2** | Trần Thị Bảo Yến | **Phụ trách Tài chính – Dữ liệu** | Nghiên cứu nghiệp vụ, thu thập dữ liệu, chuẩn hóa chỉ tiêu và xây dựng nhãn rủi ro. |
+| **3** | Đỗ Quốc Khánh | **Phụ trách Machine Learning** | Xây dựng đặc trưng, huấn luyện mô hình, đánh giá, hiệu chỉnh mô hình và triển khai Explainable AI (XAI). |
+| **4** | Lương Trung Dương | **Phụ trách Backend – Dữ liệu** | Phát triển cơ sở dữ liệu, API, pipeline xử lý dữ liệu và tích hợp mô hình AI. |
+| **5** | Đặng Hải Phi Trường | **Phụ trách Frontend – Sản phẩm** | Thiết kế giao diện, Dashboard, trực quan hóa dữ liệu, kiểm thử trải nghiệm người dùng và hỗ trợ trình bày. |
+
+---
+
+## 15. Miễn trừ trách nhiệm (Disclaimer)
+
+> ⚠️ **Lưu ý:** FinHealth AI chỉ cung cấp kết quả phân tích và dự báo nhằm **hỗ trợ tham khảo** trong quá trình đánh giá sức khỏe tài chính doanh nghiệp. Hệ thống **không thay thế** cho quyết định thẩm định của chuyên gia tài chính, kiểm toán viên hoặc các khuyến nghị đầu tư chính thức.
