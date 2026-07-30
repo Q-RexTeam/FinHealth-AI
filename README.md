@@ -107,8 +107,8 @@ Giải thích các yếu tố ảnh hưởng đến kết quả dự báo như:
 
 ## 7. Demo
 
-- **GitHub:** *(Cập nhật sau)*
-- **Website:** *(Cập nhật sau)*
+- **GitHub:** https://q-rexteam.github.io/FinHealth-AI/
+- 
 
 ---
 
