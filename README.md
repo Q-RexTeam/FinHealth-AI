@@ -55,7 +55,7 @@ Trợ lý AI & Báo cáo tự động: Trợ lý thông minh hỗ trợ hỏi đ
 
 7. Link demo
 
-GitHub: 
+GitHub: https://q-rexteam.github.io/FinHealth-AI/
 
 8. Nguồn dữ liệu dự kiến
 
