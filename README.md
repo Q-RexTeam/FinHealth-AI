@@ -99,7 +99,7 @@ Mở rộng pipeline RAG để tự động đọc và phân tích file BCTC d�
 
 Hoàn thiện chức năng Xuất báo cáo đánh giá định dạng PDF.
 
-13. Hướng dẫn chạy thử
+13. Hướng dẫn chạy thử: [Xem hướng dẫn chạy thử (PDF)](./docs/Hướng dẫn chạy thử.pdf)
 
 Truy cập đường link sau: .docs/Hướng dẫn chạy thử.pdf
 
