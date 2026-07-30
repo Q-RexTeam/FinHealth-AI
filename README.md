@@ -55,7 +55,7 @@ Trợ lý AI & Báo cáo tự động: Trợ lý thông minh hỗ trợ hỏi đ
 
 7. Link demo
 
-GitHub: 
+GitHub: https://q-rexteam.github.io/FinHealth-AI/
 
 8. Nguồn dữ liệu dự kiến
 
@@ -101,7 +101,7 @@ Hoàn thiện chức năng Xuất báo cáo đánh giá định dạng PDF.
 
 13. Hướng dẫn chạy thử
 
-Truy cập đường link sau: 
+Truy cập đường link sau để chạy thử: https://q-rexteam.github.io/FinHealth-AI/
 
 14. Thành viên và phân công
 
