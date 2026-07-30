@@ -114,4 +114,5 @@ Truy cập đường link sau để chạy thử: https://q-rexteam.github.io/Fi
 |   5    | Đặng Hải Phi Trường | Phụ trách Frontend – Sản phẩm | Thiết kế giao diện, dashboard, trực quan hóa, kiểm thử trải nghiệm và hỗ trợ slide |
 
 15. Miễn trừ trách nhiệm (Disclaimer)
+
 ⚠️ Lưu ý: Kết quả phân tích và dự báo từ hệ thống FinHealth AI chỉ đóng vai trò hỗ trợ thông tin và tham khảo chéo. Hệ thống không thay thế cho quyết định thẩm định chính thức của chuyên gia tài chính hay khuyến nghị đầu tư pháp lý.
