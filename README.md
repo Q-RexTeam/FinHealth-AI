@@ -101,7 +101,7 @@ Hoàn thiện chức năng Xuất báo cáo đánh giá định dạng PDF.
 
 13. Hướng dẫn chạy thử
 
-Truy cập đường link sau: 
+Truy cập đường link sau: Hướng dẫn chạy thử.pdf
 
 14. Thành viên và phân công
 
